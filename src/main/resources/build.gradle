@@ -1,0 +1,14 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+ext.nextflow_version = '_NXF_VER_'
+
+dependencies {
+    implementation "io.nextflow:nextflow:$nextflow_version"
+}
